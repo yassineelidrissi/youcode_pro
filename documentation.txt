@@ -1,0 +1,168 @@
+    1  sudo apt install build-essential dkms linux-headers-$(uname-r)
+    2  sudo '/media/yassine/VBox_GAs_6.1.16/VBoxLinuxAdditions.run'
+    3  reboot
+    4  sudo snap install --classic code
+    5  ls
+    6  poweroff
+    7  ls
+    8  cd Desktop/
+    9  ls
+   10  man
+   11  pwd
+   12  ls
+   13  clear
+   14  cd ..
+   15  cd Desktop/
+   16  ls
+   17  mkdir test1
+   18  ls
+   19  cd test1/
+   20  touch text1.txt
+   21  ls
+   22  vi text1.txt 
+   23  cat text1.txt 
+   24  vi text1.txt 
+   25  cd ..
+   26  ls
+   27  cd ..
+   28  ls
+   29  cd Downloads/
+   30  ls
+   31  cd ..
+   32  sudo apt install code
+   33  cd Downloads/
+   34  ls
+   35  code
+   36  cd ..
+   37  cd Desktop/
+   38  ls
+   39  cd test1/
+   40  ls
+   41  code text1.txt 
+   42  cd ..
+   43  cd test1/
+   44  cat text1.txt 
+   45  sort text1.txt 
+   46  code
+   47  cat text1.txt 
+   48  uniq text1.txt 
+   49  sort -o text1.txt 
+   50  cd ..
+   51  mkdir chaima
+   52  cd chaima/
+   53  ls
+   54  touch test1.txt
+   55  code test1.txt 
+   56  cat test1.txt 
+   57  more test1.txt 
+   58  cd ..
+   59  rm -r chaima/
+   60  cd test1/
+   61  sort -o text1.txt 
+   62  wc text1.txt 
+   63  wc -l text1.txt 
+   64  wc -w text1.txt 
+   65  wc -m text1.txt 
+   66  wc -c text1.txt 
+   67  cd ..
+   68  mkdir test2
+   69  cd test1/
+   70  ls
+   71  cp text1.txt test2
+   72  cd ..
+   73  ls
+   74  cd test2/
+   75  ls
+   76  tree
+   77  ls
+   78  cd ..
+   79  cp test1/text1.txt test2
+   80  cd test2/
+   81  ls
+   82  cd ..
+   83  cd test1/
+   84  ls
+   85  cd ..
+   86  mkdir web
+   87  cd web
+   88  mkdir css js img
+   89  touch index.html
+   90  ls
+   91  cd css
+   92  touch style.css
+   93  cd ..
+   94  cd js/
+   95  touch main.js
+   96  ls
+   97  cd ..
+   98  ls
+   99  tree
+  100  sudo apt install tree
+  101  ls
+  102  touch index.html 
+  103  ls
+  104  code index.html 
+  105  ls
+  106  ls -l
+  107  ls -alt
+  108  cd ..
+  109  sudo apt install tree
+  110  cd web/
+  111  tree
+  112  cd ..
+  113  date
+  114  man pwd
+  115  echo "hello"
+  116  cd test1/
+  117  ls
+  118  code text1.txt 
+  119  cd ..
+  120  clear
+  121  ls
+  122  cd Desktop/
+  123  mkdir youcode
+  124  ls
+  125  cd youcode/
+  126  touch test.txt
+  127  ls
+  128  code test.txt 
+  129  libreoffice test.txt
+  130  code test.txt 
+  131  cat test.txt 
+  132  sort test.txt
+  133  sort test.txt | test2.txt
+  134  sort test.txt | >  test2.txt
+  135  LS
+  136  ls
+  137* 
+  138  cat test.txt | sort > test3.txt
+  139  ls
+  140  cat test3.txt 
+  141  sort test2.txt > test5.txt
+  142  ls
+  143  cat test5.txt 
+  144  clear
+  145  ls
+  146  code test
+  147  code test.txt
+  148  cat test.txt 
+  149  uniq test.txt 
+  150  ls -l
+  151  ls -lh
+  152  man ls
+  153  pwd
+  154  ls
+  155  mkdir folder1
+  156  ls
+  157  cp test.txt folder1/
+  158  ls
+  159  cd folder1/
+  160  ls
+  161  cd ..
+  162  cd folder1/
+  163  mv folder1 folder2
+  164  cd ..
+  165  mv folder1 folder2
+  166  ls
+  167  history
+  168  history > documentation.txt
